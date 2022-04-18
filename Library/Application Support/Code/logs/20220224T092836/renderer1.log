@@ -1,0 +1,17 @@
+[2022-02-24 09:28:47.698] [renderer1] [info] Starting extension host with pid 729.
+[2022-02-24 09:28:51.147] [renderer1] [error] [Extension Host] (node:729) [DEP0005] DeprecationWarning: Buffer() is deprecated due to security and usability issues. Please use the Buffer.alloc(), Buffer.allocUnsafe(), or Buffer.from() methods instead.
+(Use `Code Helper (Renderer) --trace-deprecation ...` to show where the warning was created)
+[2022-02-24 09:28:53.233] [renderer1] [critical] FAILED to destory notebook {"fileOperationResult":1,"options":{}}
+[2022-02-24 09:28:53.389] [renderer1] [error] Error: Unable to read file '/Users/EmreAKANAK/Desktop/Time_Series_Nifty_Bajaj_deploy.ipynb' (Error: Unable to resolve nonexistent file '/Users/EmreAKANAK/Desktop/Time_Series_Nifty_Bajaj_deploy.ipynb')
+    at wi.doReadFileStream (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:610:17091)
+    at async Es.resolveFromFile (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2365:56004)
+    at async m.resolve (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2365:71606)
+    at async tr.load (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2356:4667)
+    at async d.createReferencedObject (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2365:80854)
+    at async resolve (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2365:83153)
+    at async bn.resolve (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1933:816)
+    at async ps.setInput (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:1935:57529)
+    at async h.doSetInput (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2319:34301)
+    at async h.doOpenEditor (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2319:32701)
+    at async h.openEditor (vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2319:32349)
+    at async vscode-file://vscode-app/Applications/Visual%20Studio%20Code.app/Contents/Resources/app/out/vs/workbench/workbench.desktop.main.js:2521:16907
